@@ -1,2 +1,25 @@
 # llm-learning-rocm
-Personal learning repo for LLM inference &amp; ROCm experiments
+
+个人大模型技术学习与实验仓库，用于入门学习大模型推理、量化及ROCm生态适配。
+
+## 当前进展
+- ✅ 完成CPU环境下小模型推理测试
+- ✅ 完成transformers基础用法学习笔记
+- ✅ 编写ROCm环境推理脚本（待验证）
+- ⏳ 待GPU算力支持后开展更大模型实验
+
+## 环境要求
+- Python 3.9+
+- PyTorch 2.0+
+- Transformers 4.35+
+- ROCm 6.0+（GPU环境）
+
+## 后续计划
+1. 使用AMD GPU完成7B模型的ROCm推理性能测试
+2. 对比不同量化等级（4bit/8bit）的精度与速度
+3. 入门LoRA微调技术，完成小样本微调实验
+4. 整理ROCm环境搭建踩坑记录
+
+## 说明
+本项目为个人学习项目，当前受本地硬件限制，仅能在CPU上运行小模型。
+申请AMD AI开发者算力主要用于大模型推理与轻量化技术的学习实验。
